@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width:100vh;
+    background-color:hsl(0, 0%, 95%);
+
+}
+img{
+    display: block;
+    width: inherit;
+    margin-bottom: 35px;
+    width: 40px;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 100%;
+    background-color:hsl(0, 0%, 95%);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 650px;
+}
+   
+.container{
+    display: flex;
+    background-color:gray;
+    height: auto;
+    border-radius: 10px;
+    max-width: 670px;
+    
+    
+}
+
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 25px;
+    border-radius: 7px 0 0 7px;
+    
+    
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Big Shoulders Display;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 25px;
+}
+
+.luxury{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 25px;
+    border-radius: 0px 10px 10px 0;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+    font-family: Lexend Deca;
+    font-size: 11.5px;
+    padding-bottom: 30px;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100px;
+    text-transform: capitalize;
+    font-family: Lexend Deca;
+    font-size: 11.5px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.orange{
+    color: hsl(31, 77%, 52%);
+}
+.light{
+    color:  hsl(184, 100%, 22%);
+}
+
+.dark{
+    color: hsl(179, 100%, 13%);
+}
+
+.attributions{
+    text-align: center;
+}
+
+.orange:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-style: s;
+}
+
+.light:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-style: s;
+}
+.dark:hover{
+    background-color:hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-style: s;
+}
+
+@media screen and (max-width: 375px){
+
+    body{
+        max-width: 400px;
+        gap: 20px;
+        
+    }
+    
+    
+    .wrapper{
+       
+        max-width: 200px;
+        background-color: hsla(0, 0%, 100%, 0.75);
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        height: 850px;
+    }
+
+    div{
+        padding: 10px;
+        background-color: hsla(0, 0%, 100%, 0.75);
+    }
+       
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border-radius: 10px;
+        background-color:  hsla(0, 0%, 100%, 0.75);
+    }
+
+    h2{
+        font-size: 25px;
+        font-weight: 500;
+    
+       
+    }
+    
+    .sedans{
+        border-radius: 7px 7px 0 0;
+    }
+    .luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    
+
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 5px;
+        line-height: 15px;
+        font-family: Lexend Deca;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    button{
+        padding: 8px;
+        width: 90px;
+        text-transform: capitalize;
+        font-family: Lexend Deca;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: 300;
+    }
+    
+
+}
+    
+    
+     
